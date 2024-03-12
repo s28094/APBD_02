@@ -14,3 +14,5 @@ while (j < 5)
     Console.Write(j + " ");
     j++;
 }
+Console.WriteLine();
+Console.WriteLine(j + j);
