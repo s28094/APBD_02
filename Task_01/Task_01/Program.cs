@@ -28,3 +28,10 @@ foreach(int element in arr)
 int avg = sum / arr.Length;
 
 Console.WriteLine(avg);
+
+static int MaxArray(int[] arr)
+{
+    return arr.Max();
+}
+
+Console.WriteLine("Max: " + MaxArray(arr));
