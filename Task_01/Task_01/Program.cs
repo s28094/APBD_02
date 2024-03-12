@@ -16,3 +16,15 @@ while (j < 5)
 }
 Console.WriteLine();
 Console.WriteLine(j + j);
+
+int[] arr = {1, 2, 3, 4, 5};
+int sum = 0;
+
+foreach(int element in arr)
+{
+    sum += element;
+}
+
+int avg = sum / arr.Length;
+
+Console.WriteLine(avg);
