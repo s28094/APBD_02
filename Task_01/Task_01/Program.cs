@@ -22,7 +22,7 @@ int sum = 0;
 
 foreach(int element in arr)
 {
-    sum -= element;
+    sum += element;
 }
 
 int avg = sum / arr.Length;
