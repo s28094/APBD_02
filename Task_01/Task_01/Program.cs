@@ -18,16 +18,19 @@ Console.WriteLine();
 Console.WriteLine(j + j);
 
 int[] arr = {1, 2, 3, 4, 5};
-int sum = 0;
 
-foreach(int element in arr)
+static int AvgArray(int[] arr)
 {
-    sum -= element;
+    int sum = 0;
+    foreach(int element in arr)
+    {
+        sum += element;
+    }
+    return sum / arr.Length;
 }
 
-int avg = sum / arr.Length;
 
-Console.WriteLine(avg);
+Console.WriteLine(AvgArray(arr));
 
 static int MaxArray(int[] arr)
 {
